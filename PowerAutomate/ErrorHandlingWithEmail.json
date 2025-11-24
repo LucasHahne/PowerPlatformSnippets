@@ -1,5 +1,5 @@
 {
-    "id": "fa83c944-119e-4749-864e-0e74dd2092a9",
+    "id": "c7528315-1ff4-42be-85be-dfb542596552",
     "brandColor": "#8C3900",
     "connectionReferences": {
         "shared_office365": {
@@ -57,7 +57,7 @@
                     },
                     "parameters": {
                         "emailMessage/To": "",
-                        "emailMessage/Subject": "",
+                        "emailMessage/Subject": "Error in Flow: @{outputs('Compose_-_get_workflow_details')?['tags']?['flowDisplayName']}",
                         "emailMessage/Body": "<p>Hi, </p>\n<p>Your flow: <b> @{outputs('Compose_-_get_workflow_details')?['tags']?['flowDisplayName']}<b> has failed.</p>\n<p>Error: @{outputs('Compose_-_get_failed_Action')} </p>\n<p>Your flowlink: <a href='@{outputs('Compose_-_get_Flow_URL')}'> </a>@{outputs('Compose_-_get_Flow_URL')}</p>\n<p>Please have a look</p>\n<p>Your Flowbot</p>",
                         "emailMessage/Importance": "Normal"
                     },
