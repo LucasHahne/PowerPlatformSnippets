@@ -93,7 +93,7 @@ function Check-DeveloperEnvironments {
                 }
                 $results += $envDetails
                 
-                Write-Host "  ✓ Found developer environment: $($env.DisplayName) -ForegroundColor Green
+                Write-Host "  ✓ Found developer environment: $($env.DisplayName)" -ForegroundColor Green
             }
         } else {
             $envDetails = [PSCustomObject]@{
