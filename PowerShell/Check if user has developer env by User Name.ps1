@@ -57,6 +57,7 @@ try {
 $usernames = @(
 "Max Mustermann",
 "Max Musterfrau"
+
 )
 
 # Function to check for developer environments
